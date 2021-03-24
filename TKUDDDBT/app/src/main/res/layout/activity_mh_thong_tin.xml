@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:background="#ffcc"
         android:gravity="center"
-        android:text="QUẢN LÍ THÔNG TIN"
+        android:text="THÔNG TIN"
         android:textSize="30sp" />
 
     <TableLayout
@@ -23,20 +23,24 @@
         android:id="@+id/tablelayout"
         android:layout_below="@id/tvThongTin">
         <TableRow>
+            <TextView
+                android:id="@+id/tvTTQue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quê: "/>
 
             <Spinner
-                android:id="@+id/spQueQuan"
-                android:layout_width="300dp"
+                android:id="@+id/spTTQueQuan"
+                android:layout_width="311dp"
+
                 android:layout_height="wrap_content" />
-
-
         </TableRow>
 
-            <ListView
-                android:id="@+id/lvQLTT"
-                android:layout_width="383dp"
-                android:layout_height="538dp"
-                android:layout_gravity="center"></ListView>
+        <ListView
+            android:id="@+id/lvTT"
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:layout_gravity="center"></ListView>
     </TableLayout>
     <LinearLayout
         android:layout_width="fill_parent"
@@ -44,12 +48,12 @@
         android:gravity="center"
         android:layout_height="wrap_content">
         <Button
-            android:id="@+id/btnThem"
+            android:id="@+id/btnTTThem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Thêm"/>
         <Button
-            android:id="@+id/btnThoat"
+            android:id="@+id/btnTTThoat"
             android:layout_marginLeft="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
