@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:stretchColumns="*"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/tvTen"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+    <TextView
+        android:id="@+id/tvSoDT"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+    <TextView
+        android:id="@+id/tvDiaChi"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+</TableRow>
